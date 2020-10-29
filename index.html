@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK MANAGER</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            color: white;
+            /*border: 1px solid white;*/
+        }
+        .button {
+            width: 200px;
+            height: 35px;
+            padding: 5px;
+            background-color: rgb(21, 218, 21);
+            border: 1px solid red;
+            border-radius: 10px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br><br>
+        <h2 id="loadingText">Press Load to begin!</h2>
+        <br>
+        <input class="button" type="button" onclick="handleLoading()" value="Load">
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
